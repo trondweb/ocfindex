@@ -2,6 +2,4 @@ name = "my-app2"
 compatibility_date = "2024-07-29"
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = ".vercel/output/static"
-kv_namespaces = [
-  { binding = “ONEDRIVE_CF_INDEX_KV”, id = “146d1c4801a0470b950cdc4bee96d4ad” }
-]
+kv_namespaces = [{ binding = "ONEDRIVE_CF_INDEX_KV", id = "146d1c4801a0470b950cdc4bee96d4ad" }]
